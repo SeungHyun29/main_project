@@ -1,0 +1,150 @@
+createUser 작성
+
+mutation {
+  createUser(
+    email: "aa@a.re",
+    password: "1234",
+    name: "윤정한",
+    phonenumber: "01012345678"
+  ) {
+    id
+    email
+    name
+    phonenumber
+    signupDate
+  }
+}
+
+=========================================================
+login 작성
+
+mutation{
+  login (
+    email: "aa@a.re",
+  	password: "1234"
+  )
+}
+
+=========================================================
+updateLoginUser 작성
+
+mutation {
+  updateLoginUser(
+    userId: "생성된 유저아이디 작성",
+    email: "aa@a.re",
+    password: "1235",
+    updateUserInput: {
+      email: "aa@a.re",
+      password: "1234",
+      name: "윤정한",
+      phonenumber: "01012345678"
+    }
+  ){
+    id
+    email
+    name
+    phonenumber
+  }
+}
+
+=======================================================
+createOrder 작성
+
+mutation {
+  createOrder(createOrderInput: {
+    cs:"배송 중",
+    quantity: 2,
+    orderNumber: "OD122",
+    productId: "c46cfbf3-2a21-49c9-ac0a-83009e5861a3",
+    userId: "8ce8836a-cc9b-4b28-bbb2-bb6306c0c285"
+  }) {
+    cs
+    quantity
+    orderDate
+    orderNumber
+  }
+}
+
+=======================================================
+createCancel 작성
+
+mutation {
+  createCancel(
+    impUid: "imp_263220864489",
+    amount: 100,
+    user: "8ce8836a-cc9b-4b28-bbb2-bb6306c0c285"
+  ) {
+    impUid
+  }
+}
+
+=======================================================
+createPayment 작성
+
+mutation {
+  createPayment(
+    impUid: "imp_929760002368",
+    amount: 100
+  ) {
+    impUid
+  }
+}
+
+=======================================================
+createProduct 작성
+
+mutation{
+  createProduct(createProductInput: {
+    name: "햄스터 피스트",
+    expDetail: "2022-12-23",
+    price: 2300,
+    productDetail: {content: "햄스터 전용 사료"},
+    productSubCategoryId: "fcf4e10d-163f-11ed-b5d8-0242ac150002",
+    hamsters: ["골든햄스터"]
+  }) {
+    id
+    name
+    expDetail
+    price
+    isSoldout
+  }
+}
+
+=======================================================
+fetchProducts 작성
+
+query{
+  fetchProducts
+  {
+    id
+    name
+    price
+    expDetail
+    isSoldout
+    productSubCategory {
+      id
+      name
+    }
+    productDetail {
+      content
+    }
+    hamsters {
+      id
+      name
+    }
+  }
+}
+
+=======================================================
+updateProduct 작성
+
+mutation{
+  updateProduct(
+    productId: "cbc45770-d1bf-407f-86c9-d88e9af7dc61",
+    updateProductInput: {
+      price: 2300,
+      imageUrl: ["jkkjhlkj"],
+    }) {
+    id
+  }
+}

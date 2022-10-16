@@ -1,0 +1,36 @@
+{
+  "template": "search-template",
+  "index_patterns": ["*"],
+  "settings": {
+    "index": {
+      "max_ngram_diff": "20"
+    },
+    "analysis": {
+      "analyzer": {
+        "my_analyzer": {
+          "type": "custom",
+          "tokenizer": "my_tokenizer"
+        }
+      },
+      "tokenizer": {
+        "my_tokenizer": {
+          "type": "nGram",
+          "min_gram": "1",
+          "max_gram": "10"
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "type": {
+        "type": "text"
+      },
+      "name": {
+        "type": "text",
+        "analyzer": "my_analyzer",
+        "search_analyzer": "standard"
+      }
+    }
+  }
+}

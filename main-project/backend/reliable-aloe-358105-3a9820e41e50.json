@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "reliable-aloe-358105",
+  "private_key_id": "3a9820e41e5081de630f01be556af0b53045722b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCigWp45ATaaMtc\nrFgYFY4Xq4jgF6Z4mXV2rMnjFOFc9crlX9p4n/hOIZTtTu4WncAKjSzSNrcypIAk\nbl9hPlnYernhb/WzxgV+Se0kPxvPX68QF43qh0Ud88Uq6hUf8mweQ40rJu3T7OAs\naTXBU0grSbiMl6/xXNu4NaIklRpAuvCZOoBGfSLGIBpBzyLG8g5UHUsFuLhOTSRy\njqy+N/FBcxI0AKqqs2UoJljhjotYHL7esB37ct8k/kCGGNETW/FwIkhWgwias+ED\n8ssO7flw3rvOmiJ9E1mCH1WVZPxEnqVEB3GVjKIf1yIl+YNoDVKK0HWjP/7Wxcrf\nkyMS9UPDAgMBAAECggEAMr5nsW0+SLc9fWhBr++XKbQCLzujW3hL8i1dc1/TSZRk\n8YAfd9g4EKmy1/F0LjK/Q2w3CUNVrGYqr3WZqgNuycb04Tz1Q9g7YeaSuuVL+VLf\nFw7L3Wa1AffbYx2qUAoCkea1H7rtu+X1UFjgFMi9OeswyhIZuiwtXhW9VmAKzRgy\njoYv6+OGAxR4o1xXv7oZr/Wr+6kdTtUkWoUyG0ZHUDKleFXlD8nwwcPiqALAqYjg\nv18lmtXDmq52vMon9EJu18dgNx91fS57V+i2P/zB1tM2Dyp6eBUt8z9ti7jjqU8s\nEX3qDswyIkGNHqD6oULf5uoFoHinGpFXEfn9WScPOQKBgQDktXqwgVkaxXR9P0Pm\njTe26IFP9224wgR4Hwxc7u+yS2Dru8obe7tHc9kGrOAI1cxm8rR6xLMvasmKOT2o\n6I8A1QGMxkGEhZ/2UIaD9AwAjpiTnN5l+ql4B36Se/n2kZzg2cUZ9gqr2y7hazSp\ns1egf3Q0nDXP8dr9SxYcoFgnmQKBgQC15ZQvfdf+Y0bFkvDfkSb2VwIKNpDjlwlR\nDhsbaGyvVx6uwq1rV2/zLQENR6jg3UajidXCWaOqfip2LGuc+bPJziHqNhkXF4Lh\nuG6r3CqZHEE6z1VZ1xnQQrmFW2ACVoUuRKS1uQ+zjK83RsLbsSAvwTFTx36Tmuyl\nfuinD61vuwKBgQChuQpGoVBms9VJc2EKODV7azF1YFr/2IHchufxFyv7gX3Jc4LY\nqEenoO2H4NqSpMviyCCC53BlSTe2O/+z3q6wQe7UoqRVlz+jpxFXYUzTYAHX74b7\nyaHoNDR2VKBOkGzEOnk7gFXPbC/cSjh0/1IpNbbwNL2Ai1702RGLsH5lkQKBgQCf\nN+QsZgVpIVFTpDnAGHh4bNTWR8kvzodTMfu8U/2+xY2P/8x5B0JxI9Wl4DINEuPA\nRuibhIdkt6dHZb6U22XqocrCDrSLqALivePx/3gyKa9XYSEe0NBBogZumvtBUKan\nR2K9xs3dpqnAwunSEAtSgdNBuIAtiBDZFGtlwK1Z/QKBgQC2jcg+OZh8281E3oEv\nhq3lkFMnFNnMoV+fXebfUUxfj8Ep/gPcoCA5ASo0SwzYJ9fhoipsx6nOPbLqjZSu\nuOriIuVsGfqM+VnQX2z1qMcXYcpV5Ed6nsci+8jMLVuUjf2b61MUFj+Hpb8r3PGy\nfB3M3YD9xOBaeY7AJ5TTXa8dYQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "hamzzi-storage@reliable-aloe-358105.iam.gserviceaccount.com",
+  "client_id": "102829220557909506643",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hamzzi-storage%40reliable-aloe-358105.iam.gserviceaccount.com"
+}

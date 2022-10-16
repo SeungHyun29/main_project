@@ -1,0 +1,33 @@
+# 데이터베이스 조회하기
+show databases;
+
+# DB 변경하기
+use mydocker04;
+
+INSERT into product_main_category (id, name)
+     values (uuid(), "푸드") 
+;
+
+
+INSERT into product_sub_category (id, name)
+     values (uuid(), "전자제품")
+;
+
+INSERT into product_sub_category  (id, name, productMainCategoryId)
+     values (uuid(), "간식", "f2c1fd4a-163f-11ed-b5d8-0242ac150002")
+;
+
+# 커넥션 최대값 (max_connections)
+show variables;
+
+# 커넥션 최대값 조정
+set global max_connections = 15;
+
+# 현재 연결된 커넥션 개수 (Thread_connected)
+show status;
+
+# 현재 연결된 커넥션 목록
+show processlist;
+
+# 커넥션 종료 (kill 커넥션ID)
+kill 62;
